@@ -1,8 +1,8 @@
 ---
 home: true
-heroImage: /hero.png
+heroImage: /alone.png
 actionText: Go Blog →
-actionLink: /index/
+actionLink: /js/
 
 # footer: MIT Licensed | Copyright © 2018-present Evan You
 ---

@@ -4,7 +4,7 @@ module.exports = {
     '/': {
       lang: 'zh-CN',
       title: 'devZhang',
-      description: 'something good will be arrive'
+      description: 'Something Good Will Be Happen!'
     }
   },
   head: [

@@ -1,5 +1,5 @@
 ---
-sidebar: auto
+# sidebar: fa
 ---
 
 # 首页
