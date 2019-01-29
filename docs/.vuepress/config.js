@@ -26,13 +26,9 @@ module.exports = {
     docsDir: 'docs',
     locales: {
       '/': {
-        // label: '简体中文',
-        // selectText: '选择语言',
-        // editLinkText: '编辑此页',
-        // lastUpdated: '上次更新',
         nav: [
           {
-            text: '前端',
+            text: 'Web前端',
             items: [
 							{
                 text: 'JS',
@@ -42,13 +38,30 @@ module.exports = {
               //   text: 'CSS',
               //   link: '/css/'
               // },
-              {
+              // {
+              //   text: 'HTML',
+              //   link: '/html/'
+              // },
+						]
+					},
+					{
+						text: '轮子',
+						items: [
+							{
                 text: 'Echarts',
                 link: '/echarts/'
+							},
+              // {
+              //   text: 'React',
+              //   link: '/react/'
+              // },
+              {
+                text: 'Vue',
+                link: '/vue/'
               },
               
 						]
-          },
+					},
           {
             text: '生活随笔',
             link: '/lifes/'
@@ -61,7 +74,10 @@ module.exports = {
         sidebar: {
 					'/js/': jsSidebarConfig('JS相关'),
 					'/css/': cssSidebarConfig('CSS相关'),
+					'/html/': htmlSidebarConfig('HTML相关'),
 					'/echarts/': echartSidebarConfig('Echarts'),
+					'/react/': reactSidebarConfig('React大法'),
+					'/vue/': vueSidebarConfig('Vue'),
 					'/lifes/': lifeSidebarConfig('生活小记录'),
 					
         }
@@ -102,6 +118,20 @@ function cssSidebarConfig (title) {
   ]
 }
 
+// HTML页面
+function htmlSidebarConfig (title) {
+  return [
+    {
+      title,
+      collapsable: false,
+      children: [
+        // '',
+        '01',
+				// '02'
+      ]
+    }
+  ]
+}
 // Echarts页面
 function echartSidebarConfig (title) {
   return [
@@ -117,6 +147,34 @@ function echartSidebarConfig (title) {
   ]
 }
 
+// React页面
+function reactSidebarConfig (title) {
+  return [
+    {
+      title,
+      collapsable: false,
+      children: [
+        // '',
+        '01',
+				// '02'
+      ]
+    }
+  ]
+}
+// Vue页面
+function vueSidebarConfig (title) {
+  return [
+    {
+      title,
+      collapsable: false,
+      children: [
+        '',
+        // '01',
+				// '02'
+      ]
+    }
+  ]
+}
 
 // 生活随笔页面
 function lifeSidebarConfig (title) {
@@ -126,7 +184,7 @@ function lifeSidebarConfig (title) {
       collapsable: false,
       children: [
         // '',
-        'life01',
+        // 'life01',
 				// 'life02'
       ]
     }
