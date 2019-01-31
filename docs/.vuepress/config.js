@@ -94,7 +94,6 @@ function jsSidebarConfig (title) {
       collapsable: false,
       children: [
         '',
-        // 'js01',
         'js02',
         'js03',
         'js04',
@@ -110,8 +109,7 @@ function cssSidebarConfig (title) {
       title,
       collapsable: false,
       children: [
-        // '',
-        // 'css01',
+        '',
 				// 'css02'
       ]
     }
@@ -126,7 +124,6 @@ function htmlSidebarConfig (title) {
       collapsable: false,
       children: [
         // '',
-        // '01',
 				// '02'
       ]
     }
@@ -140,7 +137,6 @@ function echartSidebarConfig (title) {
       collapsable: false,
       children: [
         '',
-        // '01',
 				// '02'
       ]
     }
@@ -155,7 +151,6 @@ function reactSidebarConfig (title) {
       collapsable: false,
       children: [
         // '',
-        // '01',
 				// '02'
       ]
     }
@@ -169,7 +164,6 @@ function vueSidebarConfig (title) {
       collapsable: false,
       children: [
         '',
-        // '01',
 				// '02'
       ]
     }
