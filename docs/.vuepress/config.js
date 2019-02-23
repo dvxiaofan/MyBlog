@@ -3,7 +3,7 @@ module.exports = {
   locales: {
     '/': {
       lang: 'zh-CN',
-      title: 'devZhang',
+      title: 'DevZhang',
       description: 'Something Good Will Be Happen!'
     }
   },

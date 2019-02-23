@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /alone.png
+heroImage: /logo04.png
 actionText: Go Blog →
 actionLink: /vue/
 
