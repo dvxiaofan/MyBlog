@@ -98,6 +98,7 @@ function jsSidebarConfig (title) {
         'js03',
         'js04',
         'js05',
+        'js06',
       ]
     }
   ]
@@ -150,7 +151,7 @@ function reactSidebarConfig (title) {
       title,
       collapsable: false,
       children: [
-        // '',
+        '',
 				// '02'
       ]
     }
