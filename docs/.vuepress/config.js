@@ -28,28 +28,11 @@ module.exports = {
       '/': {
         nav: [
           {
-            text: 'Web前端',
+            text: 'FrontEnd',
             items: [
 							{
                 text: 'JS',
                 link: '/js/'
-							},
-              // {
-              //   text: 'CSS',
-              //   link: '/css/'
-              // },
-              // {
-              //   text: 'HTML',
-              //   link: '/html/'
-              // },
-						]
-					},
-					{
-						text: '轮子',
-						items: [
-							{
-                text: 'Echarts',
-                link: '/echarts/'
 							},
               // {
               //   text: 'React',
@@ -58,16 +41,28 @@ module.exports = {
               {
                 text: 'Vue',
                 link: '/vue/'
-              },
-              
+              }
 						]
 					},
-          {
-            text: '生活随笔',
-            link: '/lifes/'
+					{
+						text: 'Tool',
+						items: [
+							{
+                text: 'Echarts',
+                link: '/echarts/'
+							},
+						]
           },
           {
-            text: '关于',
+						text: 'Other',
+            link: '/other/'
+					},
+          {
+            text: 'Life',
+            link: '/life/'
+          },
+          {
+            text: 'About',
             link: '/about/'
           }
         ],
@@ -78,7 +73,8 @@ module.exports = {
 					'/echarts/': echartSidebarConfig('Echarts'),
 					'/react/': reactSidebarConfig('React大法'),
 					'/vue/': vueSidebarConfig('Vue'),
-					'/lifes/': lifeSidebarConfig('生活小记录'),
+					'/life/': lifeSidebarConfig('生活小记录'),
+					'/other/': otherSidebarConfig('生活小记录'),
 					
         }
       }
@@ -166,6 +162,20 @@ function vueSidebarConfig (title) {
       children: [
         '',
 				// '02'
+      ]
+    }
+  ]
+}
+
+// 其他技术文章目录
+function otherSidebarConfig (title) {
+  return [
+    {
+      title,
+      collapsable: false,
+      children: [
+        '',
+        // 'other01',
       ]
     }
   ]
