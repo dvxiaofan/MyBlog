@@ -54,7 +54,7 @@ module.exports = {
 						]
           },
           {
-						text: 'Other',
+						text: 'Others',
             link: '/other/'
 					},
           {
@@ -67,14 +67,14 @@ module.exports = {
           }
         ],
         sidebar: {
-					'/js/': jsSidebarConfig('JS相关'),
-					'/css/': cssSidebarConfig('CSS相关'),
-					'/html/': htmlSidebarConfig('HTML相关'),
+					'/js/': jsSidebarConfig('JavaScript'),
+					'/css/': cssSidebarConfig('CSS'),
+					'/html/': htmlSidebarConfig('HTML'),
 					'/echarts/': echartSidebarConfig('Echarts'),
-					'/react/': reactSidebarConfig('React大法'),
+					'/react/': reactSidebarConfig('React'),
 					'/vue/': vueSidebarConfig('Vue'),
-					'/life/': lifeSidebarConfig('生活小记录'),
-					'/other/': otherSidebarConfig('生活小记录'),
+					'/life/': lifeSidebarConfig('Life'),
+					'/other/': otherSidebarConfig('Others'),
 					
         }
       }
