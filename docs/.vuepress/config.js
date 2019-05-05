@@ -34,10 +34,10 @@ module.exports = {
                 text: 'JS',
                 link: '/js/'
 							},
-              // {
-              //   text: 'React',
-              //   link: '/react/'
-              // },
+              {
+                text: 'React',
+                link: '/react/'
+              },
               {
                 text: 'Vue',
                 link: '/vue/'
@@ -148,7 +148,7 @@ function reactSidebarConfig (title) {
       collapsable: false,
       children: [
         '',
-				// '02'
+				'02'
       ]
     }
   ]
