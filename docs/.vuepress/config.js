@@ -175,7 +175,7 @@ function otherSidebarConfig (title) {
       collapsable: false,
       children: [
         '',
-        // 'other01',
+        'nvm',
       ]
     }
   ]
