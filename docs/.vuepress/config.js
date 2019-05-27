@@ -176,6 +176,7 @@ function otherSidebarConfig (title) {
       children: [
         '',
         'nvm',
+        'emock'
       ]
     }
   ]
