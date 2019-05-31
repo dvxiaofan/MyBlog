@@ -1,6 +1,14 @@
 
 # 在Mac终端显示 Git 当前所在分支
+<p align="right">
+<em>
 
+2019-04-26
+
+</em>
+</p>
+
+-------
 
 
 ### 进入根目录
@@ -57,3 +65,4 @@ esc
  ### 最终完成效果图
  
  ![](http://ww1.sinaimg.cn/large/6b65559dgy1g2fql4mc6fj20oq0fdmy5.jpg)
+

@@ -148,7 +148,8 @@ function reactSidebarConfig (title) {
       collapsable: false,
       children: [
         '',
-				'02'
+        '02',
+        'react-webpack'
       ]
     }
   ]
