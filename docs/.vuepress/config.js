@@ -162,7 +162,7 @@ function vueSidebarConfig (title) {
       collapsable: false,
       children: [
         '',
-				// '02'
+				'input-number'
       ]
     }
   ]
