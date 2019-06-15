@@ -95,6 +95,7 @@ function jsSidebarConfig (title) {
         'js04',
         'js05',
         'js06',
+        'fileSave',
       ]
     }
   ]
