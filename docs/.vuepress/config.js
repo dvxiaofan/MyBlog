@@ -163,7 +163,8 @@ function vueSidebarConfig (title) {
       collapsable: false,
       children: [
         '',
-				'input-number'
+				'input-number',
+				'lifecycle',
       ]
     }
   ]
