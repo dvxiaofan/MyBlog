@@ -171,6 +171,7 @@ function vueSidebarConfig (title) {
 		'lifecycle',
 		'vue-demo01',
 		'vue-demo02',
+		'file-time',
 	  ]
 	}
   ]
