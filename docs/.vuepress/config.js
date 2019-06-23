@@ -22,6 +22,7 @@ module.exports = {
   theme: 'vue',
   themeConfig: {
     repo: 'dvxiaofan',
+    lastUpdated: '上次更新时间', // string | boolean
     editLinks: false,
     docsDir: 'docs',
     locales: {
@@ -75,7 +76,7 @@ module.exports = {
 					'/vue/': vueSidebarConfig('Vue'),
 					'/life/': lifeSidebarConfig('Life'),
 					'/other/': otherSidebarConfig('Others'),
-					
+
         }
       }
     }
