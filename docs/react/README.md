@@ -1,13 +1,5 @@
 # 重学 React 笔记：深入 JSX
-<p align="right">
-<em>
 
-2019-05-22
-
-</em>
-</p>
-
--------
 
 本质上来讲，JSX 只是为 `React.createElement(component, props, ...children) ` 方法提供的语法糖。比如下面的代码：
 
