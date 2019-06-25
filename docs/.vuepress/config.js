@@ -82,10 +82,10 @@ module.exports = {
 						text: 'Others',
 						link: '/other/'
 					},
-					{
-						text: 'Life',
-						link: '/life/'
-					},
+					// {
+					// 	text: 'Life',
+					// 	link: '/life/'
+					// },
 					{
 						text: 'About',
 						link: '/about/'
