@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>00E0BBD7B7E8763840BE479BDC150641</key>
+	<array>
+		<dict>
+			<key>localURL</key>
+			<string>media/15614706983022.jpg</string>
+			<key>remoteURL</key>
+			<string>devzhang-image.test.upcdn.net/2019/06/25/15614706983022.jpg</string>
+		</dict>
+		<dict>
+			<key>localURL</key>
+			<string>media/15614708416808.jpg</string>
+			<key>remoteURL</key>
+			<string>devzhang-image.test.upcdn.net/2019/06/25/15614708416808.jpg</string>
+		</dict>
+		<dict>
+			<key>localURL</key>
+			<string>media/15614715728040.jpg</string>
+			<key>remoteURL</key>
+			<string>devzhang-image.test.upcdn.net/2019/06/25/15614715728040.jpg</string>
+		</dict>
+		<dict>
+			<key>localURL</key>
+			<string>media/15614713168297.jpg</string>
+			<key>remoteURL</key>
+			<string>devzhang-image.test.upcdn.net/2019/06/25/15614713168297.jpg</string>
+		</dict>
+	</array>
+	<key>4643A38C8717321A1452526D91D01074</key>
+	<array>
+		<dict>
+			<key>localURL</key>
+			<string>media/15614706983022.jpg</string>
+			<key>remoteURL</key>
+			<string>http://imgs.devzhangjs.com/15614706983022.jpg</string>
+		</dict>
+		<dict>
+			<key>localURL</key>
+			<string>media/15614708416808.jpg</string>
+			<key>remoteURL</key>
+			<string>http://imgs.devzhangjs.com/15614708416808.jpg</string>
+		</dict>
+		<dict>
+			<key>localURL</key>
+			<string>media/15614715728040.jpg</string>
+			<key>remoteURL</key>
+			<string>http://imgs.devzhangjs.com/15614715728040.jpg</string>
+		</dict>
+		<dict>
+			<key>localURL</key>
+			<string>media/15614713168297.jpg</string>
+			<key>remoteURL</key>
+			<string>http://imgs.devzhangjs.com/15614713168297.jpg</string>
+		</dict>
+	</array>
+	<key>selectedItem</key>
+	<string>4643A38C8717321A1452526D91D01074</string>
+</dict>
+</plist>
