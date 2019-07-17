@@ -10,7 +10,7 @@
     "dev": "node bin/vuepress dev docs",
     "build": "node bin/vuepress build docs",
     "lint": "eslint --fix --ext .js,.vue bin/ lib/ test/",
-    "dep": "yarn build && bash scripts/deploy-gh.sh",
+    "ps": "yarn build && bash scripts/deploy-gh.sh",
     "prepublishOnly": "conventional-changelog -p angular -r 2 -i CHANGELOG.md -s",
     "release": "/bin/bash scripts/release.sh",
     "test": "node test/prepare.js && jest --config test/jest.config.js"
