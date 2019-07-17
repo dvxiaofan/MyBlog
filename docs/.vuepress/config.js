@@ -185,7 +185,8 @@ function vueSidebarConfig(title) {
 			'vue-demo01',
 			'vue-demo02',
 			'file-time',
-			'vue-computed'
+			'vue-computed',
+			'vue-props'
 		]
 	}]
 }
