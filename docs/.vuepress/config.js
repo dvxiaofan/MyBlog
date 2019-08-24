@@ -62,6 +62,10 @@ module.exports = {
 								link: '/js/'
 							},
 							{
+								text: 'CSS',
+								link: '/css/'
+							},
+							{
 								text: 'React',
 								link: '/react/'
 							},
