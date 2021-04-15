@@ -263,7 +263,7 @@ git push -f git@github.com:dvxiaofan/dvxiaofan.github.io.git master	// 代码上
 
 ## 查看成果
 
-把上面的文章保存，在终端里cd到整个项目目录下，然后执行`yarn deploy-gh`， 脚本就会开始执行，知道最后结束，代码提交部署成功， 你就可以输入托管博客的查看地址`https://dvxiaofan.github.io`， 没问题的话，你应该会看到自己的博客了。
+把上面的文章保存，在终端里cd到整个项目目录下，然后执行`yarn deploy-gh`， 脚本就会开始执行，直到最后结束，代码提交部署成功， 你就可以输入托管博客的查看地址`https://dvxiaofan.github.io`， 没问题的话，你应该会看到自己的博客了。
 
 
 ## 小结
