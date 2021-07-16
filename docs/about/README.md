@@ -11,12 +11,8 @@ sidebar: auto
 * 手机：	153 0713 0789
 * 微信： qingchun5231
 * [GitHub](https://github.com/dvxiaofan)
-* [个人博客](https://devzhangjs.com/)
+* [个人博客](https://dvxiaofan.github.io/)
 
 ## 欢迎关注我的微信公众号 -- devzhang
 
 <div style=""><img src="./media/weixin.jpg"></div>
-
-
-
-

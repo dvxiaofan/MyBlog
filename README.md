@@ -6,4 +6,4 @@
 
 ## 访问地址
 
-https://devzhangjs.com
+https://dvxiaofan.github.io/
