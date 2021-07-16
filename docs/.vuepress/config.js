@@ -172,7 +172,9 @@ function reactSidebarConfig(title) {
 		children: [
 			'',
 			'02',
-			'react-webpack'
+			'react-webpack',
+			'React-setState',
+			'something-about-react'
 		]
 	}]
 }
