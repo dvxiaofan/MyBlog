@@ -3,7 +3,7 @@ module.exports = {
 	locales: {
 		'/': {
 			lang: 'zh-CN',
-			title: 'DevZhang',
+			title: 'WebCoder',
 			description: 'Something Good Will Be Happen!'
 		}
 	},
