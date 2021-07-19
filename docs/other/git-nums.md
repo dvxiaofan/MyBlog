@@ -2,7 +2,7 @@
 
 
 
-### 查看当前用户一定时间内提交代码行数（不加时间则为全部提交时间段内的统计）
+### 查看当前用户一定时间内提交的代码行数（不加时间则为全部时间段内的统计）
 
 ```bash
 git log --author="$(git config --get user.name)" --since="2021-06-20" --before="2022-12-12" --pretty=tformat: --numstat | awk '{ add += $1 ; subs += $2 ; loc += $1 - $2 } END { printf "added lines: %s removed lines : %s total lines: %s\n",add,subs,loc }'

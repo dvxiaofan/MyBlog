@@ -206,7 +206,8 @@ function otherSidebarConfig(title) {
 			'',
 			'nvm',
 			'emock',
-			'mockjs'
+			'mockjs',
+			'git-nums'
 		]
 	}]
 }
