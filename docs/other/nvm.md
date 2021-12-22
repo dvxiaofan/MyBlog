@@ -3,7 +3,7 @@
 > 日常开发中，可能我们好几个项目依赖的NodeJS版本是不同的，如果没有一个合适的管理工具，有时候真的很抓狂，这个时候，就是 nvm 发挥作用的时候了
 
 ## 安装nvm
-可以使用命令
+执行命令
 
 ```
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
