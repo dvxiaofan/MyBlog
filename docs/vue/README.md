@@ -13,7 +13,7 @@
 
 > 其实上面的优点官网都有介绍，我比较认可，再赘述一遍
 
-详情请浏览[VuePress中文网](http://caibaojian.com/vuepress/)
+详情请浏览[VuePress中文网](https://vuepress.vuejs.org/)
 
 ## 开始安装
 
@@ -40,7 +40,8 @@ yarn dev       //启动调试服务
 当终端中出现 `VuePress dev server listening at http://localhost:8080/`
 就说明项目已经正常启动调试了，你可以在浏览器输入`http://localhost:8080/`预览整个博客项目
 
-![Blog首页](http://imgs.webxiaofan.com/15486764287956.jpg)
+![](http://cc.ccyou.cc/MWeb/2021/12/16401591277292.jpg)
+
 
 
 ## 修改项目结构
@@ -50,14 +51,14 @@ yarn dev       //启动调试服务
 ```
 .
 ├── .vuepress
-│   ├── components  
+│   ├── components
 │   ├── config.js   // 网站基础配置文件，主要修改的文件
 │   └── public      // 存放网站静态资源，例如图片
 ├── config
-│   └── README.md          
+│   └── README.md
 ├── default-theme-config
-│   └── README.md          
-├── guide                  
+│   └── README.md
+├── guide
 │   ├── README.md
 │   ├── assets.md
 │   ├── basic-config.md
@@ -81,9 +82,9 @@ yarn dev       //启动调试服务
 ```
 .
 ├── .vuepress
-│   ├── components        
-│   ├── config.js         
-│   └── public            
+│   ├── components
+│   ├── config.js
+│   └── public
 ├── config
 │   └── README.md            // 可删除
 ├── default-theme-config     // 这个也可以删，或者改成自己需要的
@@ -98,7 +99,7 @@ yarn dev       //启动调试服务
 │    ├── i18n.md
 │    ├── markdown.md
 │    └── using-vue.md
-├── README.md                 
+├── README.md
 ```
 
 ## 网站基本配置
@@ -149,7 +150,7 @@ actionLink: /js/			//	点击首页按钮后链接的路径
 ```
 
 我的首页效果展示：
-![](http://imgs.webxiaofan.com/15487622566856.jpg)
+![](http://cc.ccyou.cc/MWeb/2021/12/16401591277292.jpg)
 
 
 ## 配置网站结构
@@ -160,7 +161,7 @@ actionLink: /js/			//	点击首页按钮后链接的路径
 themeConfig: {
     repo: 'dvxiaofan',	// github名称，可以加参数(/项目名)，直接到项目。 只写用户名就会直接到你github首页
     editLinks: false,	// 每篇文章底部是否显示查看原文和编辑， 不需要，就设置为false
-    docsDir: 'docs',	
+    docsDir: 'docs',
     locales: {		//	网站顶部的导航栏配置
       '/': {
         nav: [
@@ -191,7 +192,7 @@ themeConfig: {
               			{
                 			text: 'Vue',
                 			link: '/vue/'
-              			},              
+              			},
 						]
 					},
           {
@@ -205,7 +206,7 @@ themeConfig: {
         ],
         sidebar: {	// 侧边栏配置
 					'/js/': jsSidebarConfig('JS相关'),
-					
+
         }
       }
     }
@@ -232,7 +233,7 @@ function jsSidebarConfig (title) {
 ```
 
 网站顶部目录效果展示
-![](http://imgs.webxiaofan.com/15487623525824.jpg)
+![](http://cc.ccyou.cc/MWeb/2021/12/16401592026933.jpg)
 
 
 ## 部署上线
@@ -241,7 +242,7 @@ function jsSidebarConfig (title) {
 
 我们需要在GitHub上建立两个仓库， 一个是平时新增维护整个博客用的， 一个用来托管博客打包后的文件
 
-比如，我建立了一个`MyBlog` 和 `dvxiaofan.github.io` 
+比如，我建立了一个`MyBlog` 和 `dvxiaofan.github.io`
 
 ::: warning 注意
 这个`dvxiaofan.github.io`里 前面的名字是你的GitHub用户名， 必须一模一样！我GitHub名是`dvxiaofan`,所以项目名就是前面的样子
@@ -255,7 +256,7 @@ function jsSidebarConfig (title) {
 
 ```
 cd vuepress		// 进入到打包好的输出文件夹
-git init			
+git init
 git add -A
 git commit -m 'deploy'
 git push -f git@github.com:dvxiaofan/dvxiaofan.github.io.git master	// 代码上传到前面建立的第二个仓库的master分支， 你需要替换成自己的
@@ -268,4 +269,3 @@ git push -f git@github.com:dvxiaofan/dvxiaofan.github.io.git master	// 代码上
 
 ## 小结
 这次就先写到这里，后期有时间会把博客部署到自己的域名上去，到时候再来更新文章
-
