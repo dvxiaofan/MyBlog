@@ -6,10 +6,10 @@ sidebar: auto
 
 ## 基本信息
 
-* 姓名： 张艳坤
+* 姓名： 张张张小FUN
 * 职位：	前端开发工程师
-* 手机：	153 0713 0789
-* 微信： qingchun5231
+* 手机：	153 7766 0188
+* 微信： cc_fun_cc
 * [GitHub](https://github.com/dvxiaofan)
 * [个人博客](https://dvxiaofan.github.io/)
 
