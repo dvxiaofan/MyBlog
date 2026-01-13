@@ -7,10 +7,10 @@
     "vuepress": "bin/vuepress.js"
   },
   "scripts": {
-    "dev": "node bin/vuepress dev docs",
-    "build": "node bin/vuepress build docs",
+    "dev": "NODE_OPTIONS=--openssl-legacy-provider node bin/vuepress dev docs",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider node bin/vuepress build docs",
     "lint": "eslint --fix --ext .js,.vue bin/ lib/ test/",
-    "ps": "yarn build && bash scripts/deploy-gh.sh",
+    "ps": "NODE_OPTIONS=--openssl-legacy-provider yarn build && bash scripts/deploy-gh.sh",
     "prepublishOnly": "conventional-changelog -p angular -r 2 -i CHANGELOG.md -s",
     "release": "/bin/bash scripts/release.sh",
     "test": "node test/prepare.js && jest --config test/jest.config.js"
