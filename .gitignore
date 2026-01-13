@@ -6,5 +6,5 @@ vuepress
 TODOs.md
 .idea
 
-# 升级方案文档（本地使用，不提交）
-VUEPRESS_V2_MIGRATION_PLAN.md
+# 本地文档目录（不提交到 git）
+.local-docs/
