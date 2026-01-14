@@ -12,3 +12,10 @@ pnpm-lock.yaml
 
 # 本地文档目录（不提交到 git）
 .local-docs/
+
+# VuePress v2 缓存目录
+.cache/
+.temp/
+
+# 备份文件
+*.bak
