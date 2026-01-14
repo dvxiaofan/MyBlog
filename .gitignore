@@ -5,3 +5,10 @@ node_modules
 vuepress
 TODOs.md
 .idea
+
+# 包管理器锁文件（项目使用 yarn）
+package-lock.json
+pnpm-lock.yaml
+
+# 本地文档目录（不提交到 git）
+.local-docs/
