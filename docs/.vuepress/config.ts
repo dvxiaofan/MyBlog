@@ -136,7 +136,9 @@ export default defineUserConfig({
             '/other/nvm.md',
             '/other/emock.md',
             '/other/mockjs.md',
-            '/other/git-nums.md'
+            '/other/git-nums.md',
+            '/other/pop-view.md',
+            '/other/llm-news-2026-06-03.md'
           ]
         }
       ]
